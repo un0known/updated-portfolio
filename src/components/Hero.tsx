@@ -7,7 +7,7 @@ import Link from "next/link";
 
 export default function Hero() {
     return (
-        <section className="h-screen flex flex-col justify-center items-center  px-0">
+        <section className="h-screen flex flex-col justify-center items-center px-0 overflow-hidden">
             {/* 🔥 Three Background */}
             <div className="absolute inset-0 z-20">
                 <ParticleScene />
@@ -20,7 +20,7 @@ export default function Hero() {
                     {/* main content */}
                     {/* ✨ Glow Effect */}
                     <div className="absolute w-72 h-72 top-50 bg-blue-500/20 blur-3xl rounded-full"></div>
-                    <div className="text-center z-999" >
+                    <div className="text-center z-20" >
                         <motion.h1
                             initial={{ opacity: 0, y: 50 }}
                             animate={{ opacity: 1, y: 0 }}
@@ -85,16 +85,15 @@ export default function Hero() {
                         </ul>
                     </div>
                     {/* proffession */}
-                    <div className="absolute bottom-8 sm:left-32 lg:ms-10 text-gray-400">
+                    {/* <div className="absolute bottom-8 sm:left-32 lg:ms-10 text-gray-400">
                         <div className=" text-4xl  sm:text-7xl md:text-8xl text-[120px] font-bold text-white/10 select-none">
                             <h1 className=' bg-opacity-5 '>Web</h1>
 
                             <span className=' bg-opacity-5 px-2'>
                                 Developer
-                                {/* <ReactTyped strings={["Developer", "Designer"]} typeSpeed={70} backSpeed={50} loop className=' ps-2' /> */}
                             </span>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
 
