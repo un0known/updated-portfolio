@@ -12,6 +12,9 @@ export default function About() {
                 <h2 className="text-3xl font-bold mb-6">About</h2>
 
                 <p className="text-gray-400 leading-relaxed">
+                    I'm a passionate and dedicated web developer with a keen interest in creating innovative and efficient
+                    web applications. As a recent graduate, I am excited to embark on my journey in the web development world, leveraging
+                    my skills to build impactful digital experiences. <br />
                     I started as a beginner and now build modern web apps using Next.js and TypeScript.
                     I focus on performance, clean UI and real-world solutions.
                 </p>

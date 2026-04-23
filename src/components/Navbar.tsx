@@ -41,37 +41,6 @@ export default function Navbar() {
                     >
                         {open ? <RxCross1 size={28} /> : <IoMenuOutline size={28} />}
                     </button>
-                    {/* <Link
-                        href="#projects"
-                        className="relative group text-gray-500 hover:text-white transition"
-                    >
-                        <span className="relative">
-                            Projects
-                            <span className="absolute left-0 -bottom-1 h-[2px] w-0 bg-blue-500 transition-all duration-300 group-hover:w-full"></span>
-                        </span>
-                    </Link>
-                    <Link
-                        href="#skills"
-                        className="relative group text-gray-500 hover:text-white transition"
-                    >
-                        <span className="relative">
-                            Skills
-                            <span className="absolute left-0 -bottom-1 h-[2px] w-0 bg-blue-500 transition-all duration-500 group-hover:w-full"></span>
-                        </span>
-                    </Link>
-                    <Link
-                        href="#contact"
-                        className="relative group text-gray-500 hover:text-white transition"
-                    >
-                        <span className="relative">
-                            Contact
-                            <span className="absolute left-0 -bottom-1 h-[2px] w-0 bg-blue-500 transition-all duration-300 group-hover:w-full"></span>
-                        </span>
-                    </Link> */}
-                    {/* <Link href="#projects"
-                        className="hover:border-b-violet-800 hover:border-b hover:transition-all pb-1">Projects</Link>
-                    <Link href="#skills">Skills</Link>
-                    <Link href="#contact">Contact</Link> */}
                 </div>
                 {/* <ThemeToggle /> */}
             </div>

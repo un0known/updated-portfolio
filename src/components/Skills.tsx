@@ -27,8 +27,7 @@ export default function Skills() {
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
 
                     {/* Frontend */}
-                    <div className="group bg-white/5 backdrop-blur-lg border border-white/10 p-6 sm:p-8 rounded-2xl
-                     transition duration-300 hover:scale-105 hover:border-blue-500/40 hover:shadow-lg hover:shadow-blue-500/10">
+                    <div className="group bg-white/5 backdrop-blur-lg border border-white/10 p-6 sm:p-8 rounded-2xl transition duration-300 hover:scale-105 hover:border-blue-500/40 hover:shadow-lg hover:shadow-blue-500/10">
 
                         {/* Icons */}
                         <div className="flex justify-center gap-3 sm:gap-4 text-2xl sm:text-3xl text-blue-400 mb-4 sm:mb-5 flex-wrap">
@@ -53,8 +52,7 @@ export default function Skills() {
                     </div>
 
                     {/* Tools */}
-                    <div className="group bg-white/5 backdrop-blur-lg border border-white/10 p-6 sm:p-8 rounded-2xl
-                     transition duration-300 hover:scale-105 hover:border-blue-500/40 hover:shadow-lg hover:shadow-blue-500/10">
+                    <div className="group bg-white/5 backdrop-blur-lg border border-white/10 p-6 sm:p-8 rounded-2xl transition duration-300 hover:scale-105 hover:border-blue-500/40 hover:shadow-lg hover:shadow-blue-500/10">
 
                         <div className="flex justify-center gap-3 sm:gap-4 text-2xl sm:text-3xl text-blue-400 mb-4 sm:mb-5">
                             <FaGitAlt />
