@@ -38,7 +38,7 @@ export default function Contact() {
             <div className='sm:flex gap-5  md:gap-16 text-[14px] font-light mt-10 grid mx-auto max-w-[1240px]'>
                 <div>
                     <p className='leading-6'>Email address: <br />
-                        <a href="">deepakmehra7830@gamilcom</a></p>
+                        <a href="">deepakmehra7830@gmail.com</a></p>
                 </div>
                 <div>
                     <p className='leading-6'>Phone Number: <br />

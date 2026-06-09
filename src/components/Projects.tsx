@@ -31,18 +31,9 @@ export default function Projects() {
                             className="group relative rounded-2xl overflow-hidden border border-white/10 bg-white/5 backdrop-blur-lg hover:shadow-xl hover:shadow-blue-500/10 transition"
                         >
 
-                            {/* 📸 Image */}
-                            <div className="relative h-48 sm:h-56">
-                                <Image
-                                    src={p.img}
-                                    alt={p.title}
-                                    fill
-                                    className="object-cover group-hover:scale-105 transition duration-500"
-                                />
-                            </div>
-
                             {/* 🔥 Overlay */}
-                            <div className="absolute inset-0 bg-black/70 opacity-0 group-hover:opacity-100 transition flex items-center justify-center gap-4">
+                            <div className="absolute inset-0 bg-black/70 flex items-center justify-center gap-4  opacity-100
+                                lg:opacity-0 lg:group-hover:opacity-100 transition-all duration-300 z-20">
 
                                 <a
                                     href={p.live}
@@ -61,6 +52,20 @@ export default function Projects() {
                                 </a>
 
                             </div>
+
+                            {/* 📸 Image */}
+                            <div className="relative h-48 sm:h-56">
+                                <Image
+                                    src={p.img}
+                                    alt={p.title}
+                                    fill
+                                    className="object-cover group-hover:scale-105 transition duration-500"
+                                />
+
+
+                            </div>
+
+
 
                             {/* 📄 Content */}
                             <div className="p-5 text-left">
