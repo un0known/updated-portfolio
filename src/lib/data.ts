@@ -27,8 +27,9 @@ export const projects = [
     },
     {
         title: "K72",
-        desc: `Designed and developed a modern, fully responsive portfolio website to showcase projects, 
-        skills, and professional work. Implemented smooth animations, interactive navigation, and optimized user experience across desktop and mobile devices.`,
+        desc: `Designed and developed a modern creative portfolio website with responsive layouts, 
+        smooth animations, and interactive user experiences. Focused on clean UI design, performance optimization, 
+        and cross-device compatibility.`,
         img: "/projects/project4.png",
         tech: ["React JS", "TypeScript", "Tailwind Css"],
         live: "https://k72-0bf9.onrender.com",

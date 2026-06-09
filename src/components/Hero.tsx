@@ -57,7 +57,7 @@ export default function Hero() {
                     {/* 💬 Contact Info (hide on mobile) */}
                     <div className="absolute bottom-6 right-4 hidden lg:block text-sm text-gray-400">
                         <div className='grid'>
-                            <span className=' bg-whit bg-opacity-10  px-1'>deepakmehra7830@gamil.com</span>
+                            <span className=' bg-whit bg-opacity-10  px-1'>deepakmehra7830@gmail.com</span>
                             <span className=' bg-whit bg-opacity-10  px-1 my-1'>+91 7830799870</span>
                         </div>
                         <ul className="flex gap-5 sm:gap-3">
