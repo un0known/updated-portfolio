@@ -24,5 +24,14 @@ export const projects = [
         tech: ["React JS", "JavaScript", "Tailwind Css"],
         live: "https://nikeshoes-clone.netlify.app/",
         github: "https://github.com/un0known/nike.git"
+    },
+    {
+        title: "K72",
+        desc: `Designed and developed a modern, fully responsive portfolio website to showcase projects, 
+        skills, and professional work. Implemented smooth animations, interactive navigation, and optimized user experience across desktop and mobile devices.`,
+        img: "/projects/project4.png",
+        tech: ["React JS", "TypeScript", "Tailwind Css"],
+        live: "https://k72-0bf9.onrender.com",
+        github: "https://github.com/un0known/K72.git"
     }
 ];
