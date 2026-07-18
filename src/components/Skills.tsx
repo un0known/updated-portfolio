@@ -1,6 +1,6 @@
 'use client'
 import { FaReact, FaGitAlt } from "react-icons/fa";
-import { SiNextdotjs, SiTypescript, SiTailwindcss, SiJavascript, SiGithub, SiVercel } from "react-icons/si";
+import { SiNextdotjs, SiTypescript, SiTailwindcss, SiJavascript, SiGithub, SiVercel, SiPython, SiDjango } from "react-icons/si";
 import ParticleScene from "./ParticleScene";
 
 export default function Skills() {
@@ -72,6 +72,26 @@ export default function Skills() {
 
                     </div>
 
+                    {/* Backend */}
+                    <div className="group bg-white/5 backdrop-blur-lg border border-white/10 p-6 sm:p-8 rounded-2xl transition duration-300 hover:scale-105 hover:border-blue-500/40 hover:shadow-lg hover:shadow-blue-500/10">
+
+                        <div className="flex justify-center gap-3 sm:gap-4 text-2xl sm:text-3xl text-purple-400 mb-4 sm:mb-5">
+                            <SiPython />
+                            <SiDjango />
+                        </div>
+
+                        <h3 className="text-lg sm:text-xl font-semibold mb-3 sm:mb-4">Backend</h3>
+
+                        <div className="flex flex-wrap justify-center gap-2 text-xs sm:text-sm">
+                            {["Python", "Django", "REST APIs", "Node JS"].map((skill) => (
+                                <span key={skill} className="px-2 sm:px-3 py-1 bg-white/10 rounded-full border border-white/10">
+                                    {skill}
+                                </span>
+                            ))}
+                        </div>
+
+                    </div>
+
                     {/* Learning */}
                     <div className="group bg-white/5 backdrop-blur-lg border border-white/10 p-6 sm:p-8 rounded-2xl transition duration-300 hover:scale-105 hover:border-blue-500/40 hover:shadow-lg hover:shadow-blue-500/10">
 
@@ -82,7 +102,7 @@ export default function Skills() {
                         <h3 className="text-lg sm:text-xl font-semibold mb-3 sm:mb-4">Learning</h3>
 
                         <div className="flex flex-wrap justify-center gap-2 text-xs sm:text-sm">
-                            {["Backend", "APIs", "Node.js"].map((skill) => (
+                            {["FastAPI", "Docker", "Cloud"].map((skill) => (
                                 <span key={skill} className="px-2 sm:px-3 py-1 bg-white/10 rounded-full border border-white/10">
                                     {skill}
                                 </span>

@@ -7,6 +7,13 @@ export const projects = [
         tech: ["HTML", "CSS", "JavaScript", "Bootstrap"],
         live: "https://un0known.github.io/uMake/index.html",
         github: "https://github.com/un0known/uMake.git"
+    },{
+        title: "ShopEase",
+        desc: `Built a scalable e-commerce web application with React, Django REST Framework, and PostgreSQL featuring JWT-based authentication, product catalog, shopping cart, order management, and responsive UI. Integrated REST APIs and deployed the application using Vercel and Render.`,
+        img: "/projects/Snapcart.png",
+        tech: ["python", "Django", "React", "PostgresSQL", "JWT Authenticaion", "Rest API"],
+        live: "https://ecom-full-stack-two.vercel.app/",
+        github: "https://github.com/un0known/Ecom_fullStack"
     },
     {
         title: "One Shot",
