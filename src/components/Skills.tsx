@@ -102,7 +102,7 @@ export default function Skills() {
                         <h3 className="text-lg sm:text-xl font-semibold mb-3 sm:mb-4">Learning</h3>
 
                         <div className="flex flex-wrap justify-center gap-2 text-xs sm:text-sm">
-                            {["FastAPI", "Docker", "Cloud"].map((skill) => (
+                            {["FastAPI", "Docker", "AI"].map((skill) => (
                                 <span key={skill} className="px-2 sm:px-3 py-1 bg-white/10 rounded-full border border-white/10">
                                     {skill}
                                 </span>
